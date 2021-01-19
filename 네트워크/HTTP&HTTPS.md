@@ -31,7 +31,7 @@ HTTPS 사이트는 모든 통신 과정을 암호화하기 떄문에, site 방�
 - 1995년 netscape에 의해 개발됨
 - SSL의 다음 보안 프로토콜로는 TLS가 있다.
 
-HTTP 프로토콜이 아닌, SSL/TLS 프로토콜에 의해 동작하는 website는 URL에서 HTTP 대신 HTTPS를 사용한다.
+HTTP와 SSL/TLS 보안 프로토콜에 의해 동작하는 website는 URL에서 HTTP 대신 HTTPS를 사용한다.
 
 ![./Untitled.png](./Untitled.png)
 
