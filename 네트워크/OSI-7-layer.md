@@ -104,12 +104,12 @@ UDP ( user datagram protocol )
 
 # Network layer
 
-network layer는 Transport layer가 전달한 segments를 전달받으며 이를 패킷이라 한다.
+network layer는 Transport layer가 전달한 segments를 전달받는다.
 
 1. Logical Addressing
 
 - IPv4 & IPv6
-- 각 패킷에 IP 주소를 첨부해 데이터가 목적지에 도착할 수 있도록 한다
+- 각 segment에 IP 주소를 부여해 데이터가 목적지에 도착할 수 있도록 하며 이러한 조각을 packet이라 한다.
 
 ![OSI-7-layer/Untitled%202.png](OSI-7-layer/Untitled%202.png)
 
