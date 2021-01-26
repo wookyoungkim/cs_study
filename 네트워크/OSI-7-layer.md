@@ -4,7 +4,7 @@
 
 NIC : network interface card
 
-![OSI-7-layer/Untitled.png](OSI-7-layer/Untitled.png)
+![image](https://user-images.githubusercontent.com/56799176/105854022-ab5f3080-6029-11eb-8f02-462dd335f05a.png)
 
 네트워크 상에는 수많은 서로 다른 종류의 디바이스들이 존재한다.
 
@@ -48,7 +48,7 @@ Virtual Terminals <> Telnet
 
 # Presentation layer
 
-![OSI-7-layer/Untitled%201.png](OSI-7-layer/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/56799176/105854030-ae5a2100-6029-11eb-9ad2-1931394950ca.png)
 
 Application 계층으로부터 인간이 이해할 수 있는 data를 전달받고,
 네트워크 전송이 가능하며 이에 용이한 형태로 데이터를 변환한다.
@@ -111,7 +111,7 @@ network layer는 Transport layer가 전달한 segments를 전달받는다.
 - IPv4 & IPv6
 - 각 segment에 IP 주소를 부여해 데이터가 목적지에 도착할 수 있도록 하며 이러한 조각을 packet이라 한다.
 
-![OSI-7-layer/Untitled%202.png](OSI-7-layer/Untitled%202.png)
+![image](https://user-images.githubusercontent.com/56799176/105854033-b0bc7b00-6029-11eb-8ee3-f247789d01c2.png)
 
 2. Path determination
 
@@ -129,7 +129,7 @@ mask : 225.225.225.0
 
 mask는 IP의 앞 3 조합은 network, 마지막은 host B임을 설명한다.
 
-![OSI-7-layer/Untitled%203.png](OSI-7-layer/Untitled%203.png)
+![image](https://user-images.githubusercontent.com/56799176/105854038-b2863e80-6029-11eb-9789-fbe9d7f2f9d2.png)
 
 # Data Link Layer
 
@@ -141,15 +141,15 @@ data link layer는 NIC(network interface controller)에 소프트웨어로 임�
 
 - MAC : 12자의 알파벳과 숫자로 이루어진 디바이스 주소
 
-![OSI-7-layer/Untitled%204.png](OSI-7-layer/Untitled%204.png)
+![image](https://user-images.githubusercontent.com/56799176/105854041-b4500200-6029-11eb-984b-c5403e530ab2.png)
 
 미디어로부터 전달받은 데이터를 연결된 디바이스에 전달한다.(MAC, Error Detection)
 
 Access the media (Framing)
 
-![OSI-7-layer/Untitled%205.png](OSI-7-layer/Untitled%205.png)
+![image](https://user-images.githubusercontent.com/56799176/105854048-b619c580-6029-11eb-8564-2183984c8bb6.png)
 
-![OSI-7-layer/Untitled%206.png](OSI-7-layer/Untitled%206.png)
+![image](https://user-images.githubusercontent.com/56799176/105854052-b7e38900-6029-11eb-9048-632ef920d7be.png)
 
 # Physical Link Layer
 
@@ -157,7 +157,7 @@ Access the media (Framing)
 
 simplex, half duplex, full duplex와 같은 전송 모드 또한 physical layer에서 정의되고 USB, Bluetooth, Ethernet 규범 또한 Physical layer 명세에 포함된다.
 
-![OSI-7-layer/Untitled%207.png](OSI-7-layer/Untitled%207.png)
+![image](https://user-images.githubusercontent.com/56799176/105854060-ba45e300-6029-11eb-9b07-004ce4e65f8e.png)
 
 
 프로토콜
