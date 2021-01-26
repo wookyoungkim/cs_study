@@ -32,7 +32,7 @@ OSI 7 계층
 
 network applications
 
-유저가 사용하는 서비스
+유저가 사용하는 서비스로 네트워크 자원에 대한 접근을 제공한다.
 
 ex) 구글, 크롬, outlook, skype, ...
 
@@ -50,27 +50,28 @@ Virtual Terminals <> Telnet
 
 ![OSI-7-layer/Untitled%201.png](OSI-7-layer/Untitled%201.png)
 
-Application 계층으로부터 숫자 또는 문자 형태의 data를 전달받고
+Application 계층으로부터 인간이 이해할 수 있는 data를 전달받고,
+네트워크 전송이 가능하며 이에 용이한 형태로 데이터를 변환한다.
 
 1. Transition : 데이터 형태를 변환한다.
 2. Data Compression : 데이터를 압축한다.
 3. Encryption/Decryption : SSL과 같은 Secure Sockets Layer를 통해 data를 암호/복호화한다.
 
+프로토콜 : JPEG, MPEG, SMB, ...
+
 # Session layer
 
-APIs, NETBIOS와 같은 helper를 통해 유저 간의 연결에서 송수신을 가능케 한다.
+APIs, NETBIOS와 같은 helper를 통해 네트워크 노드 간의 소통을 위한 연결 시스템을 구축한다.
 
 Session을 통해 server에 접속하면
 
-authentication : name/password를 통해 유저를 인증하고
-
-authorization : 유저가 server가 가지고 있는 리소스에 대한 접근 권한이 있는지 확인한다.
-
-session management : 유저가 요청에 의해 응답한 리소스의 형태에 따라 어떻게 리소스를 처리할 것인지를 관리한다. 
+1. authentication : name/password를 통해 유저를 인증하고
+2. authorization : 유저가 server가 가지고 있는 리소스에 대한 접근 권한이 있는지 확인한다.
+3. session management : 세션은 송수신되는 data를 추적하며 어떻게 이를 처리할 것인지 결정해준다.
 
 # Transport layer
 
-segmentation
+1. segmentation
 
 data를 segments로 쪼갠다.
 
@@ -78,11 +79,11 @@ data를 segments로 쪼갠다.
 
 쪼개어진 segment는 포트 번호를 통해 알맞는 application으로 전달될 수 있고, 송신단에서 쪼개어진 segment는 수신단에서  순서 정보에 의해 원 데이터로 합쳐질 수 있다.
 
-flow control
+2. flow control
 
 송수신단 사이의 데이터 흐름을 제어한다.
 
-error control
+3. error control
 
 송수신 시 segments 유실/손상/순서 섞임/중복과 같은 에러가 발생할 경우 이에 대해 피드백한다.
 
@@ -105,22 +106,22 @@ UDP ( user datagram protocol )
 
 network layer는 Transport layer가 전달한 segments를 전달받으며 이를 패킷이라 한다.
 
-Logical Addressing
+1. Logical Addressing
 
 - IPv4 & IPv6
 - 각 패킷에 IP 주소를 첨부해 데이터가 목적지에 도착할 수 있도록 한다
 
 ![OSI-7-layer/Untitled%202.png](OSI-7-layer/Untitled%202.png)
 
-Path determination
+2. Path determination
 
 - 최적의 경로를 결정한다.
 - OSPF , BGP , IS-IS
 - QoS (Quality of Service)
 
-Routing
+3. Routing
 
-- logical addressing 기능을 맡는 IPv4 & IPv6와 mask를 이용해 라우팅한다.
+- IPv4 & IPv6와 mask를 이용해 라우팅한다.
 
 mask : 225.225.225.0 
 
@@ -152,7 +153,7 @@ Access the media (Framing)
 
 # Physical Link Layer
 
-2진 형태의 data를 전기/광/전자 신호로 변환해주는 물리적 전송 매개물을 의미한다. 
+2진 형태의 data를 전기/광/전자 신호로 변환해주는 물리적 전송 매개물을 의미한다.
 
 simplex, half duplex, full duplex와 같은 전송 모드 또한 physical layer에서 정의되고 USB, Bluetooth, Ethernet 규범 또한 Physical layer 명세에 포함된다.
 
