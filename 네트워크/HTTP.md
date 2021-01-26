@@ -100,7 +100,7 @@ HTTP/3
 
 HOLB(Head of line Blocking) 문제를 해결하기 위해 (TCP를 사용하면 발생할 수 밖에 없음)
 
-![image-20210126153051870](https://github.com/wookyoungkim/cs_study/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/image-20210126153051870.png?raw=true)
+![gcp-cloud-cdn-performance](https://evan-moon.github.io/95f5c7e411d0b7f96d182abe284be551/gcp-cloud-cdn-performance.gif)
 
 
 
@@ -118,9 +118,9 @@ HOLB(Head of line Blocking) 문제를 해결하기 위해 (TCP를 사용하면 �
 
 멀티플렉싱 지원
 
-![image-20210126153112444](https://github.com/wookyoungkim/cs_study/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/image-20210126153112444.png?raw=true)
+![HTTP-vs-with-Push-HTTP1](https://freecontent.manning.com/wp-content/uploads/HTTP-vs-with-Push-HTTP2.gif)
 
-![image-20210126153122858](https://github.com/wookyoungkim/cs_study/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/image-20210126153122858.png?raw=true)
+![HTTP-vs-with-Push-HTTP2](https://freecontent.manning.com/wp-content/uploads/HTTP-vs-with-Push-HTTP1.gif)
 
 클라이언트 ip가 바뀌어도 연결이 유지됨
 
