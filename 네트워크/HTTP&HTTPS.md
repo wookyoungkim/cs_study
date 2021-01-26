@@ -33,13 +33,13 @@ HTTPS 사이트는 모든 통신 과정을 암호화하기 떄문에, site 방�
 
 HTTP와 SSL/TLS 보안 프로토콜에 의해 동작하는 website는 URL에서 HTTP 대신 HTTPS를 사용한다.
 
-![./Untitled.png](./Untitled.png)
+![HTTP&HTTPS/Untitled.png](HTTP&HTTPS/Untitled.png)
 
 ## SSL/TLS 동작 방식
 
 ssl로 전송 data를 암호화한 결과
 
-![./Untitled%201.png](./Untitled%201.png)
+![HTTP&HTTPS/Untitled%201.png](HTTP&HTTPS/Untitled%201.png)
 
 - SSL은 web에서 전송되는 data를 해독하기 어려운 문자열로 암호화한다.
 - SSL은 handshake라는 인증 절차를 통해 송수신하는 두 장치를 확인한다.
