@@ -100,7 +100,7 @@ HTTP/3
 
 HOLB(Head of line Blocking) 문제를 해결하기 위해 (TCP를 사용하면 발생할 수 밖에 없음)
 
- ![image-20210126152721887](C:\Users\junse\AppData\Roaming\Typora\typora-user-images\image-20210126152721887.png)
+![image-20210126153051870](C:\Users\junse\Desktop\image-20210126153051870.png)
 
 
 
@@ -118,11 +118,9 @@ HOLB(Head of line Blocking) 문제를 해결하기 위해 (TCP를 사용하면 �
 
 멀티플렉싱 지원
 
-![image-20210126152753420](C:\Users\junse\AppData\Roaming\Typora\typora-user-images\image-20210126152753420.png)
+![image-20210126153112444](C:\Users\junse\Desktop\image-20210126153112444.png)
 
-
-
-![image-20210126152802735](C:\Users\junse\AppData\Roaming\Typora\typora-user-images\image-20210126152802735.png)
+![image-20210126153122858](C:\Users\junse\Desktop\image-20210126153122858.png)
 
 클라이언트 ip가 바뀌어도 연결이 유지됨
 
