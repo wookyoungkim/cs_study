@@ -96,11 +96,11 @@ TCP를 전송 프로토콜로 사용 (HTTP 1.1과 HTTP 2.0에서는 TCP 를 사�
 
 * 3way handshack 최적화
 
-  HOLB(Head of line Blocking) 문제를 해결하기 위해 (TCP를 사용하면 발생할 수 밖에 없음)
+  첫번째 handshack를 거칠 때, 연결 설정에 필요한 정보와 함께 데이터도 보내버리는 방식으로 최적화
 
 ![gcp-cloud-cdn-performance](https://evan-moon.github.io/95f5c7e411d0b7f96d182abe284be551/gcp-cloud-cdn-performance.gif)
 
-​	첫번째 handshack를 거칠 때, 연결 설정에 필요한 정보와 함께 데이터도 보내버리는 방식으로 최적화
+
 
  
 
